@@ -20,6 +20,7 @@ html {
     --card-bcg-color: #EEEEEE;
     --border-bottom-color: #ECECEC;
     --item-icons-color: #AFB1B8;
+    --link-bcg-footer: #FFFFFF1A;
 }
 
 button,
@@ -241,7 +242,7 @@ svg.contact-icon {
 footer {
     padding-top: 60px;
     padding-bottom: 60px;
-    background: #2F303A;
+    background: var(--footer-bcg-color);
     text-decoration: none;
 }
 
@@ -334,7 +335,7 @@ svg.icon-social {
     align-items: center;
     width: 44px;
     height: 44px;
-    background-color: var(--footer-link-color);
+    background-color: var(--link-bcg-footer);
     color: var(--primary-white-color);
     border-radius: 50%;
 }
