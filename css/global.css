@@ -206,6 +206,11 @@ header {
     letter-spacing: 0.02em;
 }
 
+.icon-link {
+    display: flex;
+    align-items: center;
+}
+
 .item-icon-contact {
     display: flex;
     align-items: center;
@@ -244,21 +249,18 @@ footer {
 
 .footer {
     display: flex;
-    flex-direction: row;
+    align-items: baseline;
+
 }
 
-.footer-contacts {
-    display: flex;
-    flex-direction: column;
-}
+
 
 .footer .text-logo {
     margin-bottom: 20px;
 }
 
 .footer-adress {
-    display: flex;
-    flex-direction: column;
+    margin-top: 20px;
 }
 
 .footer-adress>.list {
@@ -308,10 +310,8 @@ svg.icon-social {
 }
 
 .footer-social {
-    display: flex;
-    flex-direction: column;
     margin-left: 70px;
-    margin-top: 12px;
+
 }
 
 .footer-social-title {
