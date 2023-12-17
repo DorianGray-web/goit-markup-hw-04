@@ -79,6 +79,7 @@ button {
 }
 
 .about .text {
+    margin-top: 10px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
@@ -120,6 +121,8 @@ svg.peculiaritie {
     margin-top: 30px;
     flex-basis: calc((100% / 3) - 30px);
 }
+
+
 
 .item-team {
     margin-left: 30px;
@@ -228,7 +231,8 @@ svg.peculiaritie {
     color: var(--item-icons-color);
 }
 
-.client-link:hover {
+.client-link:hover,
+.client-link:focus {
     border: 1px solid var(--primary-link-color);
     color: var(--primary-link-color);
 }
